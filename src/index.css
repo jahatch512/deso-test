@@ -83,3 +83,13 @@ nav a, nav button {
   margin: 0 auto;
   text-align: left;
 }
+
+
+.message-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 40px;
+}

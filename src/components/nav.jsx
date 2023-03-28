@@ -12,6 +12,7 @@ export const Nav = () => {
       <Link to="/">Home</Link>
       <Link to="/sign-and-submit-tx">Sign and Submit Transaction</Link>
       <Link to="switch-account">Switch Accounts</Link>
+      <Link to="send-messages">Send Messages</Link>
       <div className="main-nav__user-actions">
         {isLoading ? (
           <div>Loading...</div>

@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import { Home } from "./routes/home";
 import { Root } from "./routes/root";
+import { SendMessages } from "./routes/send-message";
 import { SignAndSubmitTx } from "./routes/sign-and-submit-tx";
 import { SwitchAccount } from "./routes/switch-account";
 import { User } from "./routes/user";
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: "/switch-account",
         element: <SwitchAccount />,
+      },
+      {
+        path: "/send-messages",
+        element: <SendMessages />,
       },
     ],
   },
